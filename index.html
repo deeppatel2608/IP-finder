@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table border="10">
+        <tr>
+            <td colspan="2">
+                <h1>Find IP From Given Class</h1>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <label for="class">
+                    <h3>CLASS</h3>
+                </label>
+            </td>
+            <td>
+                <select id="class" autofocus>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                </select>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <input class="button" type="button" value="Find IP" onclick="findip()">
+            </td>
+            <td>
+                <input class="button" type="button" value="Reset" onclick="reset()">
+
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <label>
+                    <h3>IP</h3>
+                </label>
+            </td>
+            <td>
+                <input type="text" id="ip" placeholder="IP">
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <label>
+                    <h3>Default Mask</h3>
+                </label>
+            </td>
+            <td>
+                <input type="text" id="mask" placeholder="Default Mask">
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <label>
+                    <h3>Network Address</h3>
+                </label>
+            </td>
+            <td>
+                <input type="text" id="network_add" placeholder="Network Address">
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>

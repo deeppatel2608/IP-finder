@@ -1,0 +1,63 @@
+body {
+    background-color: lightsteelblue;
+}
+
+div {
+    text-align: center;
+    text-decoration: underline dashed 2px deeppink;
+
+}
+
+table {
+    margin: 25px auto auto;
+    text-align: center;
+}
+
+td,
+tr {
+    border: 5px solid gray;
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+input.button {
+    color: wheat;
+    background-color: black;
+    width: fit-content;
+    border: solid 3px red;
+    border-radius: 45px;
+    font-size: larger;
+    text-decoration: solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+#ip,
+#mask,
+#network_add {
+    color: wheat;
+    background-color: black;
+    width: fit-content;
+    border: solid 3px red;
+    border-radius: 45px;
+    font-size: medium;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+select {
+    width: max-content;
+    padding: 5px;
+    color: wheat;
+    background-color: black;
+    border: solid 3px red;
+    border-radius: 45px;
+}
+
+h3,
+h1,
+h4 {
+    margin: 5px;
+    padding: 5px;
+}
